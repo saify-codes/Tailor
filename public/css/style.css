@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+.custom_card{
+    max-width: 250px;
+}
+
+.custom_card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.btn-pink{
+    background-color: pink;
+    border: none;
+}
+.bg-pink{
+    background-color: pink;
+    border: none;
+}
+
+.card-make{
+    max-width: 300px;
+    background-color: transparent;
+    margin: auto;
+    margin-bottom: 1.2em;
+}
+
+.active::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}

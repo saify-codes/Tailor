@@ -1,0 +1,3 @@
+function findParent(element) {
+    alert()
+}
